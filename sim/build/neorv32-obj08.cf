@@ -1,0 +1,201 @@
+v 4
+file / "/home/ohenley/capstones_2026_2027/yobemag/boards/neorv32_mercury2/neorv32/rtl/core/neorv32_cfs.vhd" "2f92f4f5bf470610c7ed5839b9f59dfab3e5dd66" "20261104171634.130":
+  entity neorv32_cfs at 13( 958) + 0 on 155;
+  architecture neorv32_cfs_rtl of neorv32_cfs at 42( 2173) + 0 on 156;
+file / "/home/ohenley/capstones_2026_2027/yobemag/boards/neorv32_mercury2/neorv32/rtl/core/neorv32_bootrom.vhd" "b884703bebce6ddeb40ce91ab2fbc656db8b4614" "20261104171634.129":
+  entity neorv32_bootrom at 13( 958) + 0 on 153;
+  architecture neorv32_bootrom_rtl of neorv32_bootrom at 38( 1921) + 0 on 154;
+file / "/home/ohenley/capstones_2026_2027/yobemag/boards/neorv32_mercury2/neorv32/rtl/core/neorv32_bootrom_image.vhd" "0f9a14b04896bbbc262949c4ed60fdbfe48989e5" "20261104171634.129":
+  package neorv32_bootrom_image at 1( 0) + 0 on 152;
+file / "/home/ohenley/capstones_2026_2027/yobemag/boards/neorv32_mercury2/neorv32/rtl/core/neorv32_dmem.vhd" "8efd748b0365eb93cb11bc50683952475d5bbc32" "20261104171634.128":
+  entity neorv32_dmem at 13( 958) + 0 on 150;
+  architecture neorv32_dmem_rtl of neorv32_dmem at 41( 2052) + 0 on 151;
+file / "/home/ohenley/capstones_2026_2027/yobemag/boards/neorv32_mercury2/neorv32/rtl/core/neorv32_imem.vhd" "181971626ad144a6070e16906e5d98a61ef35d74" "20261104171634.128":
+  entity neorv32_imem at 13( 958) + 0 on 146;
+  architecture neorv32_imem_rtl of neorv32_imem at 42( 2132) + 0 on 147;
+  entity neorv32_imem_rom at 134( 5059) + 0 on 148;
+  architecture neorv32_imem_rom_rtl of neorv32_imem_rom at 155( 5677) + 0 on 149;
+file / "/home/ohenley/capstones_2026_2027/yobemag/boards/neorv32_mercury2/neorv32/rtl/core/neorv32_imem_image.vhd" "80624f276dfd072f51bfbfd30bfa37d43e0752a4" "20261104171634.127":
+  package neorv32_imem_image at 1( 0) + 0 on 145;
+file / "/home/ohenley/capstones_2026_2027/yobemag/boards/neorv32_mercury2/neorv32/rtl/core/neorv32_cache_ram.vhd" "26c4ce89debbea24ab34a0b7d973cda7004f5eda" "20261104171634.127":
+  entity neorv32_cache_ram at 14( 1045) + 0 on 143;
+  architecture neorv32_cache_ram_rtl of neorv32_cache_ram at 40( 1919) + 0 on 144;
+file / "/home/ohenley/capstones_2026_2027/yobemag/boards/neorv32_mercury2/neorv32/rtl/core/neorv32_cpu_regfile.vhd" "04038a4a3359b98160e1d2fa87135587701c6bd0" "20261104171634.127":
+  entity neorv32_cpu_regfile at 20( 1567) + 0 on 141;
+  architecture neorv32_cpu_regfile_rtl of neorv32_cpu_regfile at 50( 2654) + 0 on 142;
+file / "/home/ohenley/capstones_2026_2027/yobemag/boards/neorv32_mercury2/neorv32/rtl/core/neorv32_cpu_alu_cfu.vhd" "04a6710706c473aac87d061bfe37cac460e6a414" "20261104171634.126":
+  entity neorv32_cpu_alu_cfu at 14( 1045) + 0 on 139;
+  architecture neorv32_cpu_alu_cfu_rtl of neorv32_cpu_alu_cfu at 37( 1882) + 0 on 140;
+file / "/home/ohenley/capstones_2026_2027/yobemag/boards/neorv32_mercury2/neorv32/rtl/core/neorv32_top.vhd" "7d2d2345a4c7066d0768881603791d95a1aad18b" "20261104171634.126":
+  entity neorv32_top at 15( 1132) + 0 on 137;
+  architecture neorv32_top_rtl of neorv32_top at 298( 24161) + 0 on 138;
+file / "/home/ohenley/capstones_2026_2027/yobemag/boards/neorv32_mercury2/neorv32/rtl/core/neorv32_debug_dm.vhd" "8ca565797dde883ac6050d106d3a22098fabca7a" "20261104171634.124":
+  entity neorv32_debug_dm at 14( 1045) + 0 on 135;
+  architecture neorv32_debug_dm_rtl of neorv32_debug_dm at 42( 1947) + 0 on 136;
+file / "/home/ohenley/capstones_2026_2027/yobemag/boards/neorv32_mercury2/neorv32/rtl/core/neorv32_debug_auth.vhd" "4ca906093ad9af0ed96b0a5004c70507468ee362" "20261104171634.123":
+  entity neorv32_debug_auth at 16( 1219) + 0 on 133;
+  architecture neorv32_debug_auth_rtl of neorv32_debug_auth at 36( 2112) + 0 on 134;
+file / "/home/ohenley/capstones_2026_2027/yobemag/boards/neorv32_mercury2/neorv32/rtl/core/neorv32_debug_dtm.vhd" "becfd39664057fed771b8fd1b542b46349b21bc6" "20261104171634.123":
+  entity neorv32_debug_dtm at 13( 958) + 0 on 131;
+  architecture neorv32_debug_dtm_rtl of neorv32_debug_dtm at 40( 1847) + 0 on 132;
+file / "/home/ohenley/capstones_2026_2027/yobemag/boards/neorv32_mercury2/neorv32/rtl/core/neorv32_sysinfo.vhd" "fdf0f37f11435da6b88b50944ddb8ad2a3ce1ef5" "20261104171634.122":
+  entity neorv32_sysinfo at 11( 784) + 0 on 129;
+  architecture neorv32_sysinfo_rtl of neorv32_sysinfo at 69( 4481) + 0 on 130;
+file / "/home/ohenley/capstones_2026_2027/yobemag/boards/neorv32_mercury2/neorv32/rtl/core/neorv32_tracer.vhd" "4924bf76f883e4a8f7938b7c3aef486010400614" "20261104171634.122":
+  entity neorv32_tracer at 11( 784) + 0 on 127;
+  architecture neorv32_tracer_rtl of neorv32_tracer at 37( 1769) + 0 on 128;
+file / "/home/ohenley/capstones_2026_2027/yobemag/boards/neorv32_mercury2/neorv32/rtl/core/neorv32_slink.vhd" "2b384adc40b4a6cfd50b917025c3e46547124f88" "20261104171634.121":
+  entity neorv32_slink at 11( 784) + 0 on 125;
+  architecture neorv32_slink_rtl of neorv32_slink at 45( 2414) + 0 on 126;
+file / "/home/ohenley/capstones_2026_2027/yobemag/boards/neorv32_mercury2/neorv32/rtl/core/neorv32_onewire.vhd" "a138d3259d6b627079b581198ccb29000d47206a" "20261104171634.121":
+  entity neorv32_onewire at 11( 784) + 0 on 123;
+  architecture neorv32_onewire_rtl of neorv32_onewire at 34( 1657) + 0 on 124;
+file / "/home/ohenley/capstones_2026_2027/yobemag/boards/neorv32_mercury2/neorv32/rtl/core/neorv32_gptmr.vhd" "551b89293f647d290219ccb7ff1f721d9a29023a" "20261104171634.120":
+  entity neorv32_gptmr at 13( 958) + 0 on 119;
+  architecture neorv32_gptmr_rtl of neorv32_gptmr at 34( 1648) + 0 on 120;
+  entity neorv32_gptmr_slice at 216( 8124) + 0 on 121;
+  architecture neorv32_gptmr_slice_rtl of neorv32_gptmr_slice at 239( 9095) + 0 on 122;
+file / "/home/ohenley/capstones_2026_2027/yobemag/boards/neorv32_mercury2/neorv32/rtl/core/neorv32_neoled.vhd" "1fddbcb7e6c8298793b31edba7e58e91cfa379a6" "20261104171634.119":
+  entity neorv32_neoled at 11( 784) + 0 on 117;
+  architecture neorv32_neoled_rtl of neorv32_neoled at 33( 1579) + 0 on 118;
+file / "/home/ohenley/capstones_2026_2027/yobemag/boards/neorv32_mercury2/neorv32/rtl/core/neorv32_trng.vhd" "2c91d9238ab356dd5335707287992ca038c9e146" "20261104171634.119":
+  entity neorv32_trng at 13( 958) + 0 on 111;
+  architecture neorv32_trng_rtl of neorv32_trng at 36( 1810) + 0 on 112;
+  entity neotrng at 248( 12990) + 0 on 113;
+  architecture neotrng_rtl of neotrng at 268( 13882) + 0 on 114;
+  entity neotrng_cell at 424( 19976) + 0 on 115;
+  architecture neotrng_cell_rtl of neotrng_cell at 441( 20498) + 0 on 116;
+file / "/home/ohenley/capstones_2026_2027/yobemag/boards/neorv32_mercury2/neorv32/rtl/core/neorv32_pwm.vhd" "95a9a7d816b81d68232b79f1cab90558208de1d7" "20261104171634.118":
+  entity neorv32_pwm at 14( 1045) + 0 on 107;
+  architecture neorv32_pwm_rtl of neorv32_pwm at 35( 1742) + 0 on 108;
+  entity neorv32_pwm_channel at 191( 7046) + 0 on 109;
+  architecture neorv32_pwm_channel_rtl of neorv32_pwm_channel at 215( 8073) + 0 on 110;
+file / "/home/ohenley/capstones_2026_2027/yobemag/boards/neorv32_mercury2/neorv32/rtl/core/neorv32_twd.vhd" "03f42a0e59ec61a04a7d395345a4cdbe986d6a55" "20261104171634.117":
+  entity neorv32_twd at 11( 784) + 0 on 105;
+  architecture neorv32_twd_rtl of neorv32_twd at 36( 1841) + 0 on 106;
+file / "/home/ohenley/capstones_2026_2027/yobemag/boards/neorv32_mercury2/neorv32/rtl/core/neorv32_twi.vhd" "0be8bb9dfd223082eeb1a11a1b9c7eaab1499b2c" "20261104171634.117":
+  entity neorv32_twi at 11( 784) + 0 on 103;
+  architecture neorv32_twi_rtl of neorv32_twi at 36( 1855) + 0 on 104;
+file / "/home/ohenley/capstones_2026_2027/yobemag/boards/neorv32_mercury2/neorv32/rtl/core/neorv32_spi.vhd" "dc31d5118aae689806e4a35a658a7f9681c0edfc" "20261104171634.116":
+  entity neorv32_spi at 11( 784) + 0 on 101;
+  architecture neorv32_spi_rtl of neorv32_spi at 36( 1840) + 0 on 102;
+file / "/home/ohenley/capstones_2026_2027/yobemag/boards/neorv32_mercury2/neorv32/rtl/core/neorv32_uart.vhd" "eb919ed9f4ffb0406acbf68798c1d23333fa6150" "20261104171634.115":
+  entity neorv32_uart at 11( 784) + 0 on 99;
+  architecture neorv32_uart_rtl of neorv32_uart at 43( 2064) + 0 on 100;
+file / "/home/ohenley/capstones_2026_2027/yobemag/boards/neorv32_mercury2/neorv32/rtl/core/neorv32_clint.vhd" "a753c936ab79a5f1885cbdae284b4155ed571cd6" "20261104171634.115":
+  entity neorv32_clint at 14( 1045) + 0 on 95;
+  architecture neorv32_clint_rtl of neorv32_clint at 36( 1932) + 0 on 96;
+  entity neorv32_clint_mtimecmp at 203( 8048) + 0 on 97;
+  architecture neorv32_clint_mtimecmp_rtl of neorv32_clint_mtimecmp at 221( 8812) + 0 on 98;
+file / "/home/ohenley/capstones_2026_2027/yobemag/boards/neorv32_mercury2/neorv32/rtl/core/neorv32_wdt.vhd" "762593958ed50ecb9e08e542db517e859d8e9443" "20261104171634.114":
+  entity neorv32_wdt at 11( 784) + 0 on 93;
+  architecture neorv32_wdt_rtl of neorv32_wdt at 31( 1572) + 0 on 94;
+file / "/home/ohenley/capstones_2026_2027/yobemag/boards/neorv32_mercury2/neorv32/rtl/core/neorv32_gpio.vhd" "5f3a646ab588e0b9a02ad38ffe841908d7ae3f7f" "20261104171634.114":
+  entity neorv32_gpio at 11( 784) + 0 on 91;
+  architecture neorv32_gpio_rtl of neorv32_gpio at 34( 1673) + 0 on 92;
+file / "/home/ohenley/capstones_2026_2027/yobemag/boards/neorv32_mercury2/neorv32/rtl/core/neorv32_sdi.vhd" "912ba0b328400a513eaa2d56a6673798d481dd4c" "20261104171634.113":
+  entity neorv32_sdi at 11( 784) + 0 on 89;
+  architecture neorv32_sdi_rtl of neorv32_sdi at 35( 1544) + 0 on 90;
+file / "/home/ohenley/capstones_2026_2027/yobemag/boards/neorv32_mercury2/neorv32/rtl/core/neorv32_xbus.vhd" "0e82cffbc7eab9fe1a7027df518a1e32e63758a0" "20261104171634.113":
+  entity neorv32_xbus at 14( 1045) + 0 on 87;
+  architecture neorv32_xbus_rtl of neorv32_xbus at 44( 2398) + 0 on 88;
+file / "/home/ohenley/capstones_2026_2027/yobemag/boards/neorv32_mercury2/neorv32/rtl/core/neorv32_smc.vhd" "0924c87434cfafcd4bafe09c1924e33300ae3d88" "20261104171634.113":
+  entity neorv32_smc at 14( 1045) + 0 on 81;
+  architecture neorv32_smc_rtl of neorv32_smc at 46( 2455) + 0 on 82;
+  entity neorv32_smc_mac at 457( 19847) + 0 on 83;
+  architecture neorv32_smc_mac_rtl of neorv32_smc_mac at 491( 21674) + 0 on 84;
+  entity neorv32_smc_phy at 677( 29533) + 0 on 85;
+  architecture neorv32_smc_phy_rtl of neorv32_smc_phy at 702( 30626) + 0 on 86;
+file / "/home/ohenley/capstones_2026_2027/yobemag/boards/neorv32_mercury2/neorv32/rtl/core/neorv32_dma.vhd" "610e92b72dc6b8bcb5622eea37769bd294ec880a" "20261104171634.111":
+  entity neorv32_dma at 11( 784) + 0 on 79;
+  architecture neorv32_dma_rtl of neorv32_dma at 33( 1440) + 0 on 80;
+file / "/home/ohenley/capstones_2026_2027/yobemag/boards/neorv32_mercury2/neorv32/rtl/core/neorv32_core_complex.vhd" "36257d8fb62f4c503534118510048b26c0b41c69" "20261104171634.111":
+  entity neorv32_core_complex at 11( 784) + 0 on 77;
+  architecture neorv32_core_complex_rtl of neorv32_core_complex at 106( 8689) + 0 on 78;
+file / "/home/ohenley/capstones_2026_2027/yobemag/boards/neorv32_mercury2/neorv32/rtl/core/neorv32_bus.vhd" "33683123e7c48470d3dd937d0c3e7735a6f78ebd" "20261104171634.110":
+  entity neorv32_bus_switch at 11( 784) + 0 on 65;
+  architecture neorv32_bus_switch_rtl of neorv32_bus_switch at 35( 1632) + 0 on 66;
+  entity neorv32_bus_reg at 166( 7081) + 0 on 67;
+  architecture neorv32_bus_reg_rtl of neorv32_bus_reg at 185( 7614) + 0 on 68;
+  entity neorv32_bus_gateway at 247( 10464) + 0 on 69;
+  architecture neorv32_bus_gateway_rtl of neorv32_bus_gateway at 302( 12179) + 0 on 70;
+  entity neorv32_bus_io_switch at 509( 20395) + 0 on 71;
+  architecture neorv32_bus_io_switch_rtl of neorv32_bus_io_switch at 595( 26218) + 0 on 72;
+  entity neorv32_bus_amo_rmw at 747( 33573) + 0 on 73;
+  architecture neorv32_bus_amo_rmw_rtl of neorv32_bus_amo_rmw at 768( 34075) + 0 on 74;
+  entity neorv32_bus_amo_rvs at 915( 40619) + 0 on 75;
+  architecture neorv32_bus_amo_rvs_rtl of neorv32_bus_amo_rvs at 935( 41095) + 0 on 76;
+file / "/home/ohenley/capstones_2026_2027/yobemag/boards/neorv32_mercury2/neorv32/rtl/core/neorv32_cache.vhd" "2aa526681f92666ff0e3bf502b1e0e6d57120962" "20261104171634.108":
+  entity neorv32_cache at 21( 1654) + 0 on 63;
+  architecture neorv32_cache_rtl of neorv32_cache at 47( 2726) + 0 on 64;
+file / "/home/ohenley/capstones_2026_2027/yobemag/boards/neorv32_mercury2/neorv32/rtl/core/neorv32_cpu.vhd" "e2ab59bb1d6380a3320ca0f4e9d12bc63e3fd10c" "20261104171634.107":
+  entity neorv32_cpu at 15( 1132) + 0 on 61;
+  architecture neorv32_cpu_rtl of neorv32_cpu at 105( 8330) + 0 on 62;
+file / "/home/ohenley/capstones_2026_2027/yobemag/boards/neorv32_mercury2/neorv32/rtl/core/neorv32_cpu_trace.vhd" "68fbacf1fd4691a7ab755250b37c62f798b982b6" "20261104171634.107":
+  entity neorv32_cpu_trace at 11( 784) + 0 on 57;
+  architecture neorv32_cpu_trace_rtl of neorv32_cpu_trace at 36( 1706) + 0 on 58;
+  entity neorv32_cpu_trace_simlog at 177( 7557) + 0 on 59;
+  architecture neorv32_cpu_trace_simlog_rtl of neorv32_cpu_trace_simlog at 201( 8075) + 0 on 60;
+file / "/home/ohenley/capstones_2026_2027/yobemag/boards/neorv32_mercury2/neorv32/rtl/core/neorv32_cpu_pmp.vhd" "d768f150e56d50bd7aee8b4714fb70f11fc2286a" "20261104171634.105":
+  entity neorv32_cpu_pmp at 15( 1132) + 0 on 55;
+  architecture neorv32_cpu_pmp_rtl of neorv32_cpu_pmp at 46( 2254) + 0 on 56;
+file / "/home/ohenley/capstones_2026_2027/yobemag/boards/neorv32_mercury2/neorv32/rtl/core/neorv32_cpu_lsu.vhd" "fc39e78ed40fee661224578632b10a6d0881415a" "20261104171634.104":
+  entity neorv32_cpu_lsu at 11( 784) + 0 on 53;
+  architecture neorv32_cpu_lsu_rtl of neorv32_cpu_lsu at 42( 1994) + 0 on 54;
+file / "/home/ohenley/capstones_2026_2027/yobemag/boards/neorv32_mercury2/neorv32/rtl/core/neorv32_cpu_alu.vhd" "f38bf30c8fe3e3e0ed13803c342c11ceb4d90d86" "20261104171634.103":
+  entity neorv32_cpu_alu at 11( 784) + 0 on 51;
+  architecture neorv32_cpu_alu_rtl of neorv32_cpu_alu at 62( 3256) + 0 on 52;
+file / "/home/ohenley/capstones_2026_2027/yobemag/boards/neorv32_mercury2/neorv32/rtl/core/neorv32_cpu_alu_crypto.vhd" "198bdee08551abd6dff57d4cd4bc9a4c0e0adc55" "20261104171634.103":
+  entity neorv32_cpu_alu_crypto at 18( 1393) + 0 on 49;
+  architecture neorv32_cpu_alu_crypto_rtl of neorv32_cpu_alu_crypto at 47( 2414) + 0 on 50;
+file / "/home/ohenley/capstones_2026_2027/yobemag/boards/neorv32_mercury2/neorv32/rtl/core/neorv32_cpu_alu_cond.vhd" "2fcf94c8fb64ce124ece0dcee85927760c1aab20" "20261104171634.101":
+  entity neorv32_cpu_alu_cond at 11( 784) + 0 on 47;
+  architecture neorv32_cpu_alu_cond_rtl of neorv32_cpu_alu_cond at 31( 1391) + 0 on 48;
+file / "/home/ohenley/capstones_2026_2027/yobemag/boards/neorv32_mercury2/neorv32/rtl/core/neorv32_cpu_alu_fpu.vhd" "0a22c1105a3077bcded1b2b224f975f09fbdeaae" "20261104171634.101":
+  entity neorv32_cpu_alu_fpu at 26( 2089) + 0 on 41;
+  architecture neorv32_cpu_alu_fpu_rtl of neorv32_cpu_alu_fpu at 59( 3451) + 0 on 42;
+  entity neorv32_cpu_alu_fpu_normalizer at 1512( 79701) + 0 on 43;
+  architecture neorv32_cpu_alu_fpu_normalizer_rtl of neorv32_cpu_alu_fpu_normalizer at 1545( 81199) + 0 on 44;
+  entity neorv32_cpu_alu_fpu_f2i at 1946( 100039) + 0 on 45;
+  architecture neorv32_cpu_alu_fpu_f2i_rtl of neorv32_cpu_alu_fpu_f2i at 1977( 101184) + 0 on 46;
+file / "/home/ohenley/capstones_2026_2027/yobemag/boards/neorv32_mercury2/neorv32/rtl/core/neorv32_cpu_alu_bitmanip.vhd" "d78e1d17bd3f2087dc3bea122b0e2483cb0746ae" "20261104171634.096":
+  entity neorv32_cpu_alu_bitmanip at 21( 1654) + 0 on 39;
+  architecture neorv32_cpu_alu_bitmanip_rtl of neorv32_cpu_alu_bitmanip at 55( 3062) + 0 on 40;
+file / "/home/ohenley/capstones_2026_2027/yobemag/boards/neorv32_mercury2/neorv32/rtl/core/neorv32_cpu_alu_muldiv.vhd" "df57346bb999da1610834fa7087098a053bd4553" "20261104171634.095":
+  entity neorv32_cpu_alu_muldiv at 16( 1219) + 0 on 37;
+  architecture neorv32_cpu_alu_muldiv_rtl of neorv32_cpu_alu_muldiv at 43( 2195) + 0 on 38;
+file / "/home/ohenley/capstones_2026_2027/yobemag/boards/neorv32_mercury2/neorv32/rtl/core/neorv32_cpu_alu_shifter.vhd" "8873fff358668724c4166dc538c3bd1764655131" "20261104171634.094":
+  entity neorv32_cpu_alu_shifter at 14( 1045) + 0 on 35;
+  architecture neorv32_cpu_alu_shifter_rtl of neorv32_cpu_alu_shifter at 39( 1835) + 0 on 36;
+file / "/home/ohenley/capstones_2026_2027/yobemag/boards/neorv32_mercury2/neorv32/rtl/core/neorv32_cpu_counters.vhd" "e2785d91246740e4561e0fa0ee019a20bd34509f" "20261104171634.094":
+  entity neorv32_cpu_counters at 16( 1219) + 0 on 33;
+  architecture neorv32_cpu_counters_rtl of neorv32_cpu_counters at 44( 2207) + 0 on 34;
+file / "/home/ohenley/capstones_2026_2027/yobemag/boards/neorv32_mercury2/neorv32/rtl/core/neorv32_cpu_hwtrig.vhd" "58d011133ea4ae0620ee289080745f8cd6d3d434" "20261104171634.093":
+  entity neorv32_cpu_hwtrig at 14( 1045) + 0 on 31;
+  architecture neorv32_cpu_hwtrig_rtl of neorv32_cpu_hwtrig at 39( 1843) + 0 on 32;
+file / "/home/ohenley/capstones_2026_2027/yobemag/boards/neorv32_mercury2/neorv32/rtl/core/neorv32_cpu_control.vhd" "78ba91a77d1e009ce28cf40cc8a5ab1ce7d56495" "20261104171634.092":
+  entity neorv32_cpu_control at 11( 784) + 0 on 29;
+  architecture neorv32_cpu_control_rtl of neorv32_cpu_control at 93( 5667) + 0 on 30;
+file / "/home/ohenley/capstones_2026_2027/yobemag/boards/neorv32_mercury2/neorv32/rtl/core/neorv32_cpu_frontend.vhd" "85d20c74d5af27625e170f3730b91662eb2983f1" "20261104171634.090":
+  entity neorv32_cpu_frontend at 15( 1132) + 0 on 27;
+  architecture neorv32_cpu_frontend_rtl of neorv32_cpu_frontend at 46( 2181) + 0 on 28;
+file / "/home/ohenley/capstones_2026_2027/yobemag/boards/neorv32_mercury2/neorv32/rtl/core/neorv32_cpu_decompressor.vhd" "4654e44608f7fe40dbddec7f839022df25da28e8" "20261104171634.089":
+  entity neorv32_cpu_decompressor at 16( 1219) + 0 on 25;
+  architecture neorv32_cpu_decompressor_rtl of neorv32_cpu_decompressor at 33( 1684) + 0 on 26;
+file / "/home/ohenley/capstones_2026_2027/yobemag/boards/neorv32_mercury2/neorv32/rtl/core/neorv32_prim.vhd" "acc8d81f477a77962ff0e9901311928f441b0c26" "20261104171634.088":
+  entity neorv32_prim_fifo at 15( 1132) + 0 on 17;
+  architecture neorv32_prim_fifo_rtl of neorv32_prim_fifo at 42( 2316) + 0 on 18;
+  entity neorv32_prim_spram at 193( 7713) + 0 on 19;
+  architecture neorv32_prim_spram_rtl of neorv32_prim_spram at 215( 8503) + 0 on 20;
+  entity neorv32_prim_mul at 292( 11362) + 0 on 21;
+  architecture neorv32_prim_mul_rtl of neorv32_prim_mul at 314( 12262) + 0 on 22;
+  entity neorv32_prim_cnt at 425( 16835) + 0 on 23;
+  architecture neorv32_prim_cnt_rtl of neorv32_prim_cnt at 446( 17606) + 0 on 24;
+file / "/home/ohenley/capstones_2026_2027/yobemag/boards/neorv32_mercury2/neorv32/rtl/core/neorv32_sys.vhd" "dda0d449b1d6ba6cdda2d0bd551ab8cd11dbb361" "20261104171634.087":
+  entity neorv32_sys_reset at 11( 784) + 0 on 13;
+  architecture neorv32_sys_reset_rtl of neorv32_sys_reset at 34( 1624) + 0 on 14;
+  entity neorv32_sys_clock at 90( 3803) + 0 on 15;
+  architecture neorv32_sys_clock_rtl of neorv32_sys_clock at 105( 4217) + 0 on 16;
+file / "/home/ohenley/capstones_2026_2027/yobemag/boards/neorv32_mercury2/neorv32/rtl/core/neorv32_package.vhd" "306bdb7478a56ce198d7a11534b12e0c1642757d" "20261104171634.087":
+  package neorv32_package at 11( 784) + 0 on 11 body;
+  package body neorv32_package at 1257( 73686) + 0 on 12;

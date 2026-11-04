@@ -1,0 +1,11 @@
+/home/ohenley/capstones_2026_2027/yobemag/boards/neorv32_mercury2/neorv32/rtl/core/neorv32_top.vhd:397:5:@0ms:(assertion note): [NEORV32] The NEORV32 RISC-V Processor (v01.13.06.00), github.com/stnolting/neorv32
+/home/ohenley/capstones_2026_2027/yobemag/boards/neorv32_mercury2/neorv32/rtl/core/neorv32_top.vhd:406:5:@0ms:(assertion note): [NEORV32] Processor Configuration: CPU (single-core) IMEM DMEM BOOTROM XBUS CLINT GPIO UART0 PWM SYSINFO 
+/home/ohenley/capstones_2026_2027/yobemag/boards/neorv32_mercury2/neorv32/rtl/core/neorv32_top.vhd:443:5:@0ms:(assertion warning): [NEORV32] Assuming this is a simulation.
+/home/ohenley/capstones_2026_2027/yobemag/boards/neorv32_mercury2/neorv32/rtl/core/neorv32_top.vhd:451:5:@0ms:(assertion note): [NEORV32] BOOT_MODE_SELECT 0 - booting via bootloader
+/home/ohenley/capstones_2026_2027/yobemag/boards/neorv32_mercury2/neorv32/rtl/core/neorv32_cpu.vhd:156:5:@0ms:(assertion note): [NEORV32] CPU ISA: rv32iacmx_zaamo_zalrsc_zca_zicntr_zicsr_zifencei
+/home/ohenley/capstones_2026_2027/yobemag/boards/neorv32_mercury2/neorv32/rtl/core/neorv32_cpu.vhd:201:5:@0ms:(assertion note): [NEORV32] CPU tuning options: fast_mul_regs=1 rf_arch=sram_sync 
+UART: 
+UART: 
+UART: NEORV32 Bootloader
+UART: build: Aug 30 2026
+UART: 
