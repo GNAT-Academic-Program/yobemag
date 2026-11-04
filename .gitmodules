@@ -1,0 +1,3 @@
+[submodule "boards/neorv32_mercury2"]
+	path = boards/neorv32_mercury2
+	url = https://github.com/GNAT-Academic-Program/neorv32_mercury2.git
