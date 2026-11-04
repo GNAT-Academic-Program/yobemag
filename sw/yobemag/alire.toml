@@ -1,0 +1,22 @@
+name = "yobemag"
+description = "yobemag carrier on the Mercury 2: LCD, gamepad, speaker, backlight"
+version = "0.1.0-dev"
+
+authors = ["Olivier Henley"]
+maintainers = ["Olivier Henley <olivier.henley@gmail.com>"]
+maintainers-logins = ["ohenley"]
+licenses = "MIT"
+website = "https://github.com/GNAT-Academic-Program/yobemag"
+tags = ["embedded", "neorv32", "riscv", "fpga", "bare-metal", "lcd", "game"]
+
+# The module itself (console, LEDs, NEORV32 version check) is the mercury2
+# crate: this crate adds the carrier on top of it. An application withs both:
+# Board for the module, Yobemag for the carrier.
+
+[[depends-on]]
+mercury2 = "*"
+neorv32  = "*"
+
+[[pins]]
+mercury2 = { url = "https://github.com/GNAT-Academic-Program/mercury2.git", branch = "main" }
+neorv32  = { url = "https://github.com/GNAT-Academic-Program/neorv32_ghal.git", branch = "main" }

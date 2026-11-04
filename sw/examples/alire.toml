@@ -1,0 +1,14 @@
+name = "yobemag_examples"
+description = "Example programs for the yobemag carrier"
+version = "0.1.0-dev"
+
+authors = ["Olivier Henley"]
+maintainers = ["Olivier Henley <olivier.henley@gmail.com>"]
+maintainers-logins = ["ohenley"]
+licenses = "MIT"
+
+[[depends-on]]
+yobemag = "*"
+
+[[pins]]
+yobemag = { path = "../yobemag" }
